@@ -7,9 +7,6 @@
   },
   "servers": [
     {
-      "url": "https://connect.creditsafe.com/v1"
-    },
-    {
       "url": "https://connect.sandbox.creditsafe.com/v1"
     }
   ],
