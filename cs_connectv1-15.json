@@ -6079,26 +6079,6 @@
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeleteRecordsDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeleteRecordsDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeleteRecordsDto"
-              }
-            }
-          },
-          "required": true
-        },
         "responses": {
           "200": {
             "description": "",
